@@ -1,6 +1,7 @@
 ﻿#include "appinit.h"
 #include "qapplication.h"
 #include "qevent.h"
+#include <QWidget>
 
 AppInit *AppInit::self = 0;
 AppInit::AppInit(QObject *parent) : QObject(parent)
